@@ -69,6 +69,4 @@ script:
     - BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
     - mkdir -p "${BUILD_DIR}"
     - cd "${BUILD_DIR}"
-    - cmake -DGLOBAL_PROJECT_NAME=matrix ..
-    - make
-    - make test ARGS="-VV"
+ 
